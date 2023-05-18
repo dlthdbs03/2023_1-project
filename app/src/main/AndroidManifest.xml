@@ -24,6 +24,7 @@
         <activity android:name=".SearchResultActivity"></activity>
         <activity android:name=".AlarmActivity"></activity>
         <activity android:name=".AlarmListActivity"></activity>
+        <activity android:name=".TimePickerActivity"></activity>
         <activity android:name=".MypageActivity"></activity>
     </application>
 

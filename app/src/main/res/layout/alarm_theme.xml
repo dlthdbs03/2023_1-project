@@ -69,16 +69,6 @@
             android:layout_marginTop="10dp">
 
             <TextView
-                android:id="@+id/year"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingRight="10dp"
-                android:text="년"
-                android:textColor="#FFFFFF"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textSize="14dp" />
-
-            <TextView
                 android:id="@+id/month"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -107,7 +97,9 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginRight="0dp"
                 android:focusable="false"
-                android:focusableInTouchMode="false" />
+                android:focusableInTouchMode="false"
+                android:track="@drawable/switch_track_selector"
+                android:thumb="@drawable/switch_thumb_selector"/>
         </RelativeLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
